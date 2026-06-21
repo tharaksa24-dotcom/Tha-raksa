@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Style>
+        .row{
+            width: 80%;
+            height: auto;
+            background: green;
+            display: flex; 
+            justify-content: space-between;
+            margin-bottom: 10px;
+            flex-wrap: wrap;
+        }
+        .box:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+            
+        }
+        .box{
+            transition: 0.5s;
+            margin: 20px;
+            width: 24%;
+            height: 300px;
+            background: yellow;
+            box-shadow: 0 0 8px 0;
+        }
+        .box-image{
+            width: 100%;
+            height: 300px;
+            background: blue;
+            overflow: hidden;
+            border-radius: 10px 10px 0 10px;
+        }
+        .img{
+            width: 100%;
+            object-fit: cover;
+        }
+        .button:hover{
+            background: orangered;
+        }
+        .button{
+            border: none;
+            background: blue;
+            color: aliceblue;
+            width: 40%;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+        }
+    </Style>
+    <div class="row">
+        <div class="box">
+            <div class="box-image">
+                <img src="">
+            </div>
+            <p> Banana </p>
+            <button> Buy Now </button>
+        </div>
+    </div>
+</body>
+</html>
